@@ -102,3 +102,23 @@ footer {
 footer p {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-color: #121212; /* Ensure dark background for mobile */
+        color: #e0e0e0; /* Light text color */
+    }
+
+    header {
+        background: #4caf50; /* Bright green background */
+    }
+
+    nav {
+        background: #333; /* Dark background for nav */
+    }
+
+    footer {
+        background: #1f1f1f; /* Darker grey background */
+    }
+}
+
