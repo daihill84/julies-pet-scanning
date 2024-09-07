@@ -1,0 +1,104 @@
+/* Basic reset and general styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light grey text for good contrast */
+    text-align: center; /* Center align text by default */
+}
+
+/* Header */
+header {
+    background: #4caf50; /* Bright green background */
+    color: #fff; /* White text */
+    padding: 10px 0; /* Adjusted padding for consistency */
+    text-align: center;
+}
+
+header .logo {
+    width: 120px; /* Adjust this value as needed */
+    height: auto;
+    margin-bottom: 5px; /* Reduced margin for a smaller logo spacing */
+}
+
+header h1 {
+    color: #fff; /* White text for contrast */
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Slightly smaller font size for the heading */
+}
+
+header .phone a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background: #333; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #e0e0e0; /* Light text color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Main Section */
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    color: #4caf50; /* Bright green heading color for emphasis */
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Slightly larger font size for emphasis */
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    flex-direction: column; /* Column direction for center alignment */
+    align-items: center; /* Center align content within container */
+    margin-bottom: 20px;
+}
+
+.content-container.reverse {
+    flex-direction: column-reverse; /* Reverse column direction for reverse class */
+}
+
+.content-container .text,
+.content-container .image {
+    flex: 1;
+    margin: 10px;
+    max-width: 500px; /* Limit width of text sections for consistency */
+}
+
+.content-container .image img {
+    width: 100%;
+    max-width: 300px; /* Shrink images to a tidier size */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+/* Footer */
+footer {
+    background: #1f1f1f; /* Darker grey background */
+    color: #e0e0e0; /* Light text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
