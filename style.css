@@ -1,0 +1,103 @@
+/* Basic reset and general styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Very light grey background color */
+    color: #333; /* Dark grey text for good contrast */
+    text-align: center; /* Center align text by default */
+}
+
+header {
+    background: #4caf50; /* Bright green background */
+    color: #fff;
+    padding: 1px 0; /* Reduced padding for a smaller header */
+    text-align: center;
+}
+
+header .logo {
+    width: 120px; /* Adjust this value as needed */
+    height: auto;
+    margin-bottom: 5px; /* Reduced margin for a smaller logo spacing */
+}
+
+header h1 {
+    color: #fff; /* White text for contrast */
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Slightly smaller font size for the heading */
+}
+
+header .phone a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    background: #2196f3; /* Bright blue background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    color: #4caf50; /* Bright green heading color */
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Slightly larger font size for emphasis */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column; /* Column direction for center alignment */
+    align-items: center; /* Center align content within container */
+    margin-bottom: 20px;
+}
+
+.content-container.reverse {
+    flex-direction: column-reverse; /* Reverse column direction for reverse class */
+}
+
+.content-container .text,
+.content-container .image {
+    flex: 1;
+    margin: 10px;
+    max-width: 500px; /* Limit width of text sections for consistency */
+}
+
+.content-container .image img {
+    width: 100%;
+    max-width: 300px; /* Shrink images to a tidier size */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+footer {
+    background: #4caf50; /* Bright green background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.phone-number {
+    font-size: 5em; /* This doubles the font size from the default size */
+}
